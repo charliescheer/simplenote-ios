@@ -262,6 +262,7 @@
 		B5EB1EFE1C205A800080A1B3 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EB1EFD1C205A800080A1B3 /* Icons.xcassets */; };
 		B5EB1EFF1C205A800080A1B3 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EB1EFD1C205A800080A1B3 /* Icons.xcassets */; };
 		B5F52F0622CCEEF100B376F9 /* UIColor+Simplenote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F52F0522CCEEF100B376F9 /* UIColor+Simplenote.swift */; };
+		BA1D25AE23C8AC6500972D4D /* SimplenoteSimpleTextPrintFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1D25AD23C8AC6500972D4D /* SimplenoteSimpleTextPrintFormatter.swift */; };
 		D435D38FCA5863E8447D5C2C /* Pods_Automattic_SimplenoteShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183BAB896957F07FDCAB6DF5 /* Pods_Automattic_SimplenoteShare.framework */; };
 		DE7E545B214E34C8008D9928 /* NSString+Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E545A214E34C8008D9928 /* NSString+Count.swift */; };
 		E215C793180B115C00AD36B5 /* SPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E215C791180B115C00AD36B5 /* SPNavigationController.m */; };
@@ -575,6 +576,7 @@
 		B5EB1EF31C204EBD0080A1B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5EB1EFD1C205A800080A1B3 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Icons.xcassets; path = ../Icons.xcassets; sourceTree = "<group>"; };
 		B5F52F0522CCEEF100B376F9 /* UIColor+Simplenote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIColor+Simplenote.swift"; path = "Classes/UIColor+Simplenote.swift"; sourceTree = "<group>"; };
+		BA1D25AD23C8AC6500972D4D /* SimplenoteSimpleTextPrintFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplenoteSimpleTextPrintFormatter.swift; sourceTree = "<group>"; };
 		DE7E545A214E34C8008D9928 /* NSString+Count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSString+Count.swift"; path = "Classes/NSString+Count.swift"; sourceTree = "<group>"; };
 		DF3BADF5A954AA00BCF9B169 /* Pods-Automattic-Simplenote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Automattic-Simplenote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Automattic-Simplenote/Pods-Automattic-Simplenote.debug.xcconfig"; sourceTree = "<group>"; };
 		E201864617A4892300217E0B /* SPActionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPActionButton.h; path = Classes/SPActionButton.h; sourceTree = "<group>"; };
@@ -959,6 +961,7 @@
 				B52BB74722CFBD540042C162 /* UIActivityViewController+Simplenote.swift */,
 				B52BB74F22CFD18F0042C162 /* UIActivity+Simplenote.swift */,
 				B52BB74D22CFD1660042C162 /* SimplenoteActivityItemSource.swift */,
+				BA1D25AD23C8AC6500972D4D /* SimplenoteSimpleTextPrintFormatter.swift */,
 			);
 			name = Exporter;
 			sourceTree = "<group>";
@@ -1897,6 +1900,7 @@
 				B59314D81A486B3800B651ED /* SPConstants.m in Sources */,
 				375D24B421E01131007AB25A /* escape.c in Sources */,
 				46A3C96A17DFA81A002865AE /* SPTagStub.m in Sources */,
+				BA1D25AE23C8AC6500972D4D /* SimplenoteSimpleTextPrintFormatter.swift in Sources */,
 				B50F47A61D1D791B00822748 /* NSURL+Extensions.swift in Sources */,
 				B52BB74E22CFD1660042C162 /* SimplenoteActivityItemSource.swift in Sources */,
 				B56A696722F9D55F00B90398 /* UIView+Animations.swift in Sources */,
